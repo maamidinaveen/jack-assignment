@@ -1,0 +1,49 @@
+.each-user-card-container {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  transition: transform 0.2s;
+  margin-bottom: 15px;
+}
+.user-name {
+  color: #333;
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.user-email {
+  color: #3a3145;
+  font-size: 24px;
+  font-weight: 800;
+}
+.user-department {
+  color: #181021;
+  font-size: 22px;
+  font-weight: 500;
+}
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  margin-left: -40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 10px;
+  color: #2f2626;
+  font-family: "Bree serif";
+  font-weight: bold;
+  font-size: 24px;
+}
+.button-delete {
+  width: 95px;
+  height: 38px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: transparent;
+}

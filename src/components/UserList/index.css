@@ -1,0 +1,31 @@
+.user-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW7sVJW-DHVqKI-tvi2KfpbUD7ntxpVXhILQ&s");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.user-List {
+  color: #7703fc;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+.container-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  width: 95px;
+  height: 38px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: #2f2626;
+  margin-left: 50px;
+  color: white;
+}
